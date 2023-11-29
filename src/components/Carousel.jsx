@@ -2,6 +2,7 @@ import htmlcssImg from '../assets/html-css.jpg'
 import javascriptImg from '../assets/javascript.png'
 import reactImg from '../assets/react.png'
 import responsiveDesignImg from '../assets/responsive-design.jpg'
+import gettingAJob from '../assets/getting-job.jpg'
 import { NavLink, useLocation } from 'react-router-dom'
 
 export default function Carousel() {
@@ -57,6 +58,18 @@ export default function Carousel() {
                         alt="blog preview image"
                     />
                     <p>Revolutionizing Web Development: Unveiling the Power and Simplicity of React.js</p>
+                </NavLink>
+            </section>
+            <section className={`blog-preview ${location.pathname == "/gettingajob" ? 'hidden' : ''} `}>
+                <NavLink to="/gettingajob">
+                    <h2>Getting a job</h2>
+                    <p className="date">November 23, 2023</p>
+                    <img 
+                        className="preview-img" 
+                        src={gettingAJob}
+                        alt="blog preview image"
+                    />
+                    <p>Mastering the Art of Landing Your Dream Job</p>
                 </NavLink>
             </section>
         </div>

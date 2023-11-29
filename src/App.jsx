@@ -7,6 +7,7 @@ import HtmlCssBlog from "./pages/blogs/HtmlcssBlog"
 import JavaScriptBlog from "./pages/blogs/JavaScriptBlog"
 import ReactBlog from "./pages/blogs/ReactBlog"
 import ResponsiveDesignBlog from "./pages/blogs/ResponsiveDesign"
+import Job from "./pages/blogs/GettinAJob"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="javascript" element={<JavaScriptBlog />} />
             <Route path="react" element={<ReactBlog />} />
             <Route path="responsivedesign" element={<ResponsiveDesignBlog />}/>
+            <Route path="gettingajob" element={<Job />}/>
           </Route>
         </Routes>
       </BrowserRouter>
