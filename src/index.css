@@ -24,6 +24,22 @@ a {
   color: unset;
 }
 
+h3 {
+  font-size: .9375rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: grey;
+}
+
+.blog-title {
+  margin-top: .5em;
+}
+
+p {
+  margin-top: .5em;
+  margin-bottom: 2em;
+}
+
 /* CONTAINERS */
 .site-wrapper {
   min-height: 100vh;
@@ -92,6 +108,8 @@ footer {
 
 .date {
   order: -1;
+  font-size: .875rem;
+  margin-bottom: 0;
 }
 
 /* BLOGS */
@@ -116,6 +134,10 @@ footer {
   object-fit: scale-down;
   width: 100%;
   max-height: 250px;
+}
+
+.blog-img {
+  order: -2;
 }
 
 /* OTHER */
